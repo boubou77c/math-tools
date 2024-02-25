@@ -78,7 +78,7 @@ Statistic(*args) + action
 ex : print(Statistic(12,12,12,23,5,2,1).median())
 
 
-I will improve it over time, if you have any suggestion tell me on discord : _bou_bou_
+I will improve it over time, if you have any suggestion tell me on discord : __bou_bou__
 
 Thank you
 
