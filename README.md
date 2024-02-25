@@ -54,7 +54,9 @@ ex : print(Fraction(32,21).gcd())
 !!! if you do irr() you can choose the result :
 
 -'m' = result decimal and normal (ex : (1/2, 0.5)
+
 -'d' = result decimal (ex : 0.5)
+
 -empty = standard result (1/2)
 
 
