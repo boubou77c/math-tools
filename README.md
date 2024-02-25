@@ -8,13 +8,17 @@ Error Management
 The module defines several exceptions for error handling:
 
 NotEquation: Exception thrown when an equation is invalid.
+
 RootError: Exception thrown when a root of a negative number is attempted.
+
 FactorialError: Exception thrown when a factorial calculation for a negative number is attempted.
 
 
 How to use it ? 
 
+
 Equation First degree:
+
 
 (format : a + x = b / 4 + 2x = 8)
 
@@ -30,6 +34,7 @@ print(Equation(2,5,-3).eq2())
 
 Geometry :
 
+
 Geometry tool , you call Geometry(arg1,arg2,radius) + action
 
 print(Geometry(radius=12).area_crcle())
@@ -38,12 +43,14 @@ print(Geometry(3,4).area_rctgl())
 
 MathCalculate :
 
+
 MathCalculate(arg1) + action
 
 ex : print(MathCalculate(45).prime_factors())
 
 
 Fraction :
+
 
 Fraction(numerator,denominator) + action
 
@@ -63,6 +70,7 @@ ex : print(Fraction(12,5).irr('d'))
 
 
 Statistic :
+
 
 Statistic(*args) + action
 
