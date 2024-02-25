@@ -59,6 +59,8 @@ ex : print(Fraction(32,21).gcd())
 
 -empty = standard result (1/2)
 
+ex : print(Fraction(12,5).irr('d'))
+
 
 Statistic :
 
