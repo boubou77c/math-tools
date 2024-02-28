@@ -1,7 +1,6 @@
 # math-tools
 
 The math-tool.py Python module provides functions to perform various mathematical calculations.
-Gestion des erreurs
 
 Error Management 
 
