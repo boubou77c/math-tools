@@ -297,4 +297,15 @@ class Geometry:
             raise ValueError("Radius must be specified")
         #Return the diameter of the circle
         return 2 *self.radius
+        
+    def circumference_crcle(self):
+        if self.radius is None:
+            raise ValueError("Radius must be specified to calculate the diameter")
+        #Calculate the diameter
+        diameter = Geometry(radius=self.radius).diameter_crcle()
+        #pi
+        pi = 3.14159
+        #Return the circumference :C = pi * d
+        return  pi * diameter
+        
 
